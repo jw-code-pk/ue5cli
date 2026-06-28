@@ -13,7 +13,7 @@ func FindUprojectInPath(projectPath string) (string, error) {
 
 func FindUe5EnginePath() (string, error) {
 	knownPaths := [...]string{
-		"/Users/Shared/Epc Games/",
+		"/Users/Shared/Epic Games/",
 		"/Users/Shared/",
 	}
 

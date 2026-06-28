@@ -17,9 +17,9 @@ I got a Nov 2024 MacBook Pro from a tech start-up I was working at that went bus
 
 However, I ran into several issues once UE5.6 was running on it. The main one was that UE5.6 and Visual Studio ate up all the memory! There are also still some issue around file permissions I haven't solved yet. But I can live with that for now.
 
-While I was doing game dev professionaly Visual Studio was definitely my preferred IDE. When not coding games I preferred to use old school editors like Emacs or Vim. When I started doing backend dev as my day job I moved to NeoVim and I'm totally in love with it. I already had NeoVim configured on the Mac I was trying to get my UE project running on. Many hours of tinkering went into getting clangd to work with UE. After I got that into a workable state (it's about 90% there) I found there were a few things missing from my workflow.
+While I was doing game dev professionaly Visual Studio was definitely my preferred IDE. When not coding games I preferred to use old school editors like Emacs or Vim. I started doing backend dev as my day job and I moved to NeoVim and I'm totally in love with it. I already had NeoVim configured on the Mac I was trying to get my UE project running on. Many hours of tinkering went into getting clangd to work with UE. After I got that into a workable state (it's about 90% there) I found there were a few things missing from my workflow.
 
-My first attempt was to implement these missing bits in NeoVim plugin. It worked fine, but I didn't want something tied to the editor. It also meant that I had to get more familiar with the NeoVim Lua API. I rather settled on using Go + Cobra to write a CLI. From a technical side it was perfect for what I wanted to build. Plus, I had to learn Go for my new job anyway, so here we are :)
+My first attempt was to implement these missing bits as a NeoVim plugin. It worked fine, but I didn't want something tied to the editor. It also meant that I had to get more familiar with the NeoVim Lua API. I rather settled on using Go + Cobra to write a CLI. From a technical side it was perfect for what I wanted to build. Plus, I had to learn Go for my new job anyway, so here we are :)
 
 
 
